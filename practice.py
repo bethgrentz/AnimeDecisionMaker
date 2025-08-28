@@ -14,9 +14,6 @@ import pandas as pd
 # Collect a list from the user
 print("What are your top 4 favorite anime?")
 
-topOne = input()
-topTwo = input()
-topThree = input()
-topFour = input()
+list = [input(f"Anime {i+1}: ") for i in range (4)]
 
-print(f"Cool, I like {topOne}, {topTwo}, {topThree}, {topFour} too!")
+print("Great! You Entered: ", list)
