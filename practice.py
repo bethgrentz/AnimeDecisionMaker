@@ -10,16 +10,15 @@
 
 # Imports
 import random
-import pandas as pd
 from jikanpy import Jikan
 
 # Collect a list from the user
 print("\nWhat are your top 6 favorite anime?")
-list = [input(f"Anime {i+1}: ") for i in range (6)]
-print("Great! You listed: ", list)
+userList = [input(f"Anime {i+1}: ") for i in range(6)]
+print("Great! You listed: ", userList)
 
 # Make random selection from favorites list
-randomPick = random.choice(list)
+randomPick = random.choice(userList)
 print(f"\n Hmm...Why don't you watch {randomPick} today?")
 
 # Make Jikan Suggestion
