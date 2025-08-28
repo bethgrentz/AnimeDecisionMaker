@@ -4,8 +4,8 @@
 * 8/28/25
 
 ## Resources Used
-Source of Idea: https://www.youtube.com/watch?v=_xf1TMs0ysk
-Jikan API: https://github.com/abhinavk99/jikanpy#documentation
+* Source of Idea: https://www.youtube.com/watch?v=_xf1TMs0ysk
+* Jikan API: https://github.com/abhinavk99/jikanpy#documentation
 
 ## Overview
 Simple program that asks the user their top favorite anime and randomly picks one. Then digs into Jikan API which interfaces
